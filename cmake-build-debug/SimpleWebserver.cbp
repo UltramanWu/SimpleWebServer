@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SimpleWebserver"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/wu/Documents/SimpleWebserver/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/wu/Documents/SimpleWebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/wu/Documents/SimpleWebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/wu/Documents/SimpleWebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/wu/Documents/SimpleWebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/wu/Documents/SimpleWebserver/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/wu/Documents/SimpleWebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/wu/Documents/SimpleWebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/wu/Documents/SimpleWebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/wu/Documents/SimpleWebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/wu/Documents/SimpleWebserver/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/wu/Documents/SimpleWebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/wu/Documents/SimpleWebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/wu/Documents/SimpleWebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/wu/Documents/SimpleWebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SimpleWebserver">
+				<Option output="/home/wu/Documents/SimpleWebserver/cmake-build-debug/SimpleWebserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wu/Documents/SimpleWebserver/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/wu/Documents/SimpleWebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 SimpleWebserver"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/wu/Documents/SimpleWebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/wu/Documents/SimpleWebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/wu/Documents/SimpleWebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SimpleWebserver/fast">
+				<Option output="/home/wu/Documents/SimpleWebserver/cmake-build-debug/SimpleWebserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wu/Documents/SimpleWebserver/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/wu/Documents/SimpleWebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 SimpleWebserver/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/wu/Documents/SimpleWebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/wu/Documents/SimpleWebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/wu/Documents/SimpleWebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/wu/Documents/SimpleWebserver/Channel.cpp">
+			<Option target="SimpleWebserver"/>
+		</Unit>
+		<Unit filename="/home/wu/Documents/SimpleWebserver/Channel.h">
+			<Option target="SimpleWebserver"/>
+		</Unit>
+		<Unit filename="/home/wu/Documents/SimpleWebserver/EventLoop.cpp">
+			<Option target="SimpleWebserver"/>
+		</Unit>
+		<Unit filename="/home/wu/Documents/SimpleWebserver/EventLoop.h">
+			<Option target="SimpleWebserver"/>
+		</Unit>
+		<Unit filename="/home/wu/Documents/SimpleWebserver/EventLoopThread.cpp">
+			<Option target="SimpleWebserver"/>
+		</Unit>
+		<Unit filename="/home/wu/Documents/SimpleWebserver/EventLoopThread.h">
+			<Option target="SimpleWebserver"/>
+		</Unit>
+		<Unit filename="/home/wu/Documents/SimpleWebserver/EventLoopThreadPool.cpp">
+			<Option target="SimpleWebserver"/>
+		</Unit>
+		<Unit filename="/home/wu/Documents/SimpleWebserver/EventLoopThreadPool.h">
+			<Option target="SimpleWebserver"/>
+		</Unit>
+		<Unit filename="/home/wu/Documents/SimpleWebserver/HttpData.cpp">
+			<Option target="SimpleWebserver"/>
+		</Unit>
+		<Unit filename="/home/wu/Documents/SimpleWebserver/HttpData.h">
+			<Option target="SimpleWebserver"/>
+		</Unit>
+		<Unit filename="/home/wu/Documents/SimpleWebserver/Poller.cpp">
+			<Option target="SimpleWebserver"/>
+		</Unit>
+		<Unit filename="/home/wu/Documents/SimpleWebserver/Poller.h">
+			<Option target="SimpleWebserver"/>
+		</Unit>
+		<Unit filename="/home/wu/Documents/SimpleWebserver/Server.cpp">
+			<Option target="SimpleWebserver"/>
+		</Unit>
+		<Unit filename="/home/wu/Documents/SimpleWebserver/Server.h">
+			<Option target="SimpleWebserver"/>
+		</Unit>
+		<Unit filename="/home/wu/Documents/SimpleWebserver/TimerQueue.cpp">
+			<Option target="SimpleWebserver"/>
+		</Unit>
+		<Unit filename="/home/wu/Documents/SimpleWebserver/TimerQueue.h">
+			<Option target="SimpleWebserver"/>
+		</Unit>
+		<Unit filename="/home/wu/Documents/SimpleWebserver/Util.cpp">
+			<Option target="SimpleWebserver"/>
+		</Unit>
+		<Unit filename="/home/wu/Documents/SimpleWebserver/Util.h">
+			<Option target="SimpleWebserver"/>
+		</Unit>
+		<Unit filename="/home/wu/Documents/SimpleWebserver/base/Condition.h">
+			<Option target="SimpleWebserver"/>
+		</Unit>
+		<Unit filename="/home/wu/Documents/SimpleWebserver/base/CountDownLatch.cpp">
+			<Option target="SimpleWebserver"/>
+		</Unit>
+		<Unit filename="/home/wu/Documents/SimpleWebserver/base/CountDownLatch.h">
+			<Option target="SimpleWebserver"/>
+		</Unit>
+		<Unit filename="/home/wu/Documents/SimpleWebserver/base/CurrentThread.cpp">
+			<Option target="SimpleWebserver"/>
+		</Unit>
+		<Unit filename="/home/wu/Documents/SimpleWebserver/base/CurrentThread.h">
+			<Option target="SimpleWebserver"/>
+		</Unit>
+		<Unit filename="/home/wu/Documents/SimpleWebserver/base/MutexLock.h">
+			<Option target="SimpleWebserver"/>
+		</Unit>
+		<Unit filename="/home/wu/Documents/SimpleWebserver/base/Thread.cpp">
+			<Option target="SimpleWebserver"/>
+		</Unit>
+		<Unit filename="/home/wu/Documents/SimpleWebserver/base/Thread.h">
+			<Option target="SimpleWebserver"/>
+		</Unit>
+		<Unit filename="/home/wu/Documents/SimpleWebserver/base/noncopyable.h">
+			<Option target="SimpleWebserver"/>
+		</Unit>
+		<Unit filename="/home/wu/Documents/SimpleWebserver/main.cpp">
+			<Option target="SimpleWebserver"/>
+		</Unit>
+		<Unit filename="/home/wu/Documents/SimpleWebserver/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
